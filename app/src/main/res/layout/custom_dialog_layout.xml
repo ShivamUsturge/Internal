@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/edtDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+    <EditText
+        android:id="@+id/edtDialogDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="Description" />
+    <EditText
+        android:id="@+id/edtDialogPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="price" />
+
+    <Button
+        android:id="@+id/btnDialogUpdate"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"/>
+</LinearLayout>
